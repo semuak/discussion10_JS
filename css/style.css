@@ -1,0 +1,281 @@
+ .grid-container{
+    display: grid;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+  }
+
+  h2{
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  p{
+    padding: 10px 0 0 10px;
+    text-align: center;
+  }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    height: 75%; 
+    width: 50%;
+    padding: 25px;
+    object-fit: cover;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    object-fit: contain;
+    height: 85%;
+    position: relative;
+}
+
+.bacon-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    align-items: center;
+}
+
+.cody-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.van_gogh-photos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    object-fit: cover;
+    align-items: center;
+}
+
+.extra_cookie_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+.extra_grilled_cheese_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+.extra_spaghetti_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.extra_mac_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+}
+
+.extra_zucchini_fritters_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 10px 0;
+}
+
+figcaption{
+    padding: 0 0 15px 0;
+}
+
+.vatican_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+.london_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+.mexico_photo_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    background: #CCCCFF;
+    border: 3px solid #000000;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+body{
+    line-height: auto;
+}
+
+ul{
+    list-style-type: disc;
+    display: inline-block;
+}
+
+ol{
+    list-style-type: decimal;
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+
+.navigation li{
+    display: inline-block;
+    margin: 0;
+    padding: 0 1px 5px 0;
+  }
+ 
+  
+  li a {
+    display: block;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    color: #FFFFFF;
+  }
+  
+  li a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+  li::marker{
+    text-align: center;
+  }
+
+  .active {
+    background-color: #CCCCFF;
+    color: #000000;
+    font-style: italic;
+  }
+
+  .index_pets{
+    text-align: center;
+  }
+
+  .index_travel{
+    text-align: center;
+  }
+
+  .index_recipes{
+    text-align: center;
+  }
+
+  .skip{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  figcaption{
+    text-align: center;
+    font-size: 19px;
+    padding-right: 10px;
+  }
+
+  .animated_imgs{
+    animation: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animated_imgs {
+        animation: none;
+    }
+  }
+
+
+  

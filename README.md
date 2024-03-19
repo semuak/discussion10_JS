@@ -1,1 +1,2 @@
-# discussion10_JS
+# ccp_starter_code
+Starter Code for your CCP 
